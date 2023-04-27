@@ -35,8 +35,9 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills,.contact, footer{
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 .about .about-content,
 .services .serv-content,
@@ -548,7 +549,7 @@ footer span a:hover{
         .contact .contact-content .left .icons{
             margin-right: 30px;
         }
-        .about,.home,.services,.column,.skills {
+        .about,.home,.services,.column,.skills,.covered {
             overflow: hidden;
         }
 }
@@ -671,9 +672,7 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-    .about,.home,.services,.column,.skills {
-        overflow: hidden;
-    }
+    
     .covered #summery{
         display: flex;
         width: 350px;
@@ -684,6 +683,11 @@ footer span a:hover{
         position: relative;
         right: 30px;
     }
+    .about,.home,.services,.column,.skills.covered{
+        overflow: hidden;
+    }
+
 }
+
 
 
